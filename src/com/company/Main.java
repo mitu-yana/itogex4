@@ -15,9 +15,11 @@ public class Main {
                         break;
                     case 1:
                         System.out.println("Подсказка уже недоступна");
+                        i--;
                         break;
                     case 2:
-                        System.out.println("Подсказка уже недоступна\nОбидно, приходи в другой раз");
+                        System.out.println("Подсказка уже недоступна");
+                        i--;
                         break;
                 }
             }
